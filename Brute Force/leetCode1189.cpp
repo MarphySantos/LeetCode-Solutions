@@ -13,7 +13,7 @@ public:
         unordered_map<char, double>::iterator it;
         int ans;
         if(count.size() == 5){
-            ans = 999999999;
+            ans = 99999999;
         }
         else
             return 0;
