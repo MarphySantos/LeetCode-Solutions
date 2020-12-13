@@ -7,9 +7,8 @@ public:
         if (a==n){
             cnt1++;
         }
-        else if (b==n){
+        else if (b==n)
             cnt2++;
-        }
         else if (cnt1==0){
             a = n;
             cnt1 = 1;
