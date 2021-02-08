@@ -1,7 +1,8 @@
 class Solution {
 public:
     int romanToInt(string s) {
-        int arr[26] = {0}, ans = 0;
+        int arr[26] = {0};
+        int ans = 0;
         arr['I' - 'A'] = 1;
         arr['V' - 'A'] = 5;
         arr['X' - 'A'] = 10;
